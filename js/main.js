@@ -1,9 +1,9 @@
 
 
-allPages();
+
 const windowName = window.location.pathname;
 console.log(windowName)
-
+allPages();
 function allPages(){
     preloader();
     navMenu();
