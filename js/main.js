@@ -1,7 +1,7 @@
 
 
 allPages();
-const url = window.location.href;
+const url = window.location.pathname;
 console.log(url)
 
 function allPages(){
@@ -12,7 +12,7 @@ function allPages(){
     scrollToTop();
 }
 
-if(url.includes(`index.html`)){
+if(url == "/gymnast-gym/index.html" || url == "/gymnast-gym/"){
     sliderHome();
     JoinNow();
     modals();
@@ -26,28 +26,28 @@ if(url.includes(`index.html`)){
     latestBlogs();
 }
 
-else if(url.includes(`about.html`)){
+else if(url == "/gymnast-gym/about.html"){
     ourTrainers();
     gallery();
 }
 
-else if(url.includes(`feature.html`)){
+else if(url == "/gymnast-gym/feature.html"){
     gymFeatureStart();
     testimonials();
 }
 
-else if(url.includes(`class.html`)){
+else if(url == "/gymnast-gym/class.html"){
     JoinNow();
     modals();
     classTable();
     bmiForm();
 }
 
-else if(url.includes(`single.html`)){
+else if(url == "/gymnast-gym/single.html"){
     comment();
 }
 
-else if(url.includes(`contact.html`)){
+else if(url == "/gymnast-gym/contact.html"){
     contact();
 }
 
