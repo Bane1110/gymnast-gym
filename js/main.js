@@ -1,8 +1,8 @@
 
 
 allPages();
-const url = window.location.pathname;
-console.log(url)
+const windowName = window.location.pathname;
+console.log(windowName)
 
 function allPages(){
     preloader();
@@ -12,7 +12,7 @@ function allPages(){
     scrollToTop();
 }
 
-if(url == "/gymnast-gym/index.html" || url == "/gymnast-gym/"){
+if(windowName == "/gymnast-gym/index.html" || windowName == "/gymnast-gym/"){
     sliderHome();
     JoinNow();
     modals();
@@ -26,28 +26,28 @@ if(url == "/gymnast-gym/index.html" || url == "/gymnast-gym/"){
     latestBlogs();
 }
 
-else if(url == "/gymnast-gym/about.html"){
+else if(windowName == "/gymnast-gym/about.html"){
     ourTrainers();
     gallery();
 }
 
-else if(url == "/gymnast-gym/feature.html"){
+else if(windowName == "/gymnast-gym/feature.html"){
     gymFeatureStart();
     testimonials();
 }
 
-else if(url == "/gymnast-gym/class.html"){
+else if(windowName == "/gymnast-gym/class.html"){
     JoinNow();
     modals();
     classTable();
     bmiForm();
 }
 
-else if(url == "/gymnast-gym/single.html"){
+else if(windowName == "/gymnast-gym/single.html"){
     comment();
 }
 
-else if(url == "/gymnast-gym/contact.html"){
+else if(windowName == "/gymnast-gym/contact.html"){
     contact();
 }
 
@@ -108,7 +108,8 @@ function navMenu(){
         a.attr(`href`,`${menuItems[i].url}`)
         a.text(menuItems[i].text);
 
-        if(window.location.pathname == `/gymnast-gym/`+menuItems[i].url || window.location.pathname == `/gymnast-gym/`){
+        let currentPage = `/${menuItems[i].url}` == windowName ? true : false;
+        if(currentPage){
             a.addClass(`active`);
         }
         li.append(a);
