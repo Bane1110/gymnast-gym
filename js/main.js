@@ -109,12 +109,6 @@ function navMenu(){
         a.text(menuItems[i].text);
 
         if(windowName == `/gymnast-gym/${menuItems[i].url}`){
-            if(i==0){
-                a.removeClass(`active`)
-            }
-            a.addClass(`active`);
-        }
-        else if(i==0){
             a.addClass(`active`);
         }
         li.append(a);
