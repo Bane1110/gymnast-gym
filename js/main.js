@@ -108,8 +108,10 @@ function navMenu(){
         a.attr(`href`,`${menuItems[i].url}`)
         a.text(menuItems[i].text);
 
-        let currentPage = `/${menuItems[i].url}` == windowName ? true : false;
-        if(currentPage){
+        if(windowName == `/gymnast-gym/${menuItems[i].url}`){
+            a.addClass(`active`);
+        }
+        else if(i==0){
             a.addClass(`active`);
         }
         li.append(a);
