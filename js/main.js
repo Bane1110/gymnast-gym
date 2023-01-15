@@ -108,7 +108,7 @@ function navMenu(){
         a.attr(`href`,`${menuItems[i].url}`)
         a.text(menuItems[i].text);
 
-        if(window.location.pathname == `/`+menuItems[i].url){
+        if(window.location.pathname == `/gymnast-gym/`+menuItems[i].url){
             a.addClass(`active`);
         }
         li.append(a);
