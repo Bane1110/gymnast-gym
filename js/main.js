@@ -108,7 +108,7 @@ function navMenu(){
         a.attr(`href`,`${menuItems[i].url}`)
         a.text(menuItems[i].text);
 
-        if(url == `/gymnast-gym/`+menuItems[i].url || url == `/gymnast-gym/`){
+        if(window.location.pathname == `/gymnast-gym/`+menuItems[i].url || window.location.pathname == `/gymnast-gym/`){
             a.addClass(`active`);
         }
         li.append(a);
