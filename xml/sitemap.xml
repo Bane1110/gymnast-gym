@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://bane1110.github.io/LevixonTeach/index.html</loc>
+        <loc>https://bane1110.github.io/gymnast-gym/index.html</loc>
         <lastmod>2023-01-06</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>https://bane1110.github.io/LevixonTeach/class.html</loc>
+        <loc>https://bane1110.github.io/gymnast-gym/class.html</loc>
         <lastmod>2023-01-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://bane1110.github.io/LevixonTeach/single.html</loc>
+        <loc>https://bane1110.github.io/gymnast-gym/single.html</loc>
         <lastmod>2023-01-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://bane1110.github.io/LevixonTeach/about.html</loc>
+        <loc>https://bane1110.github.io/gymnast-gym/about.html</loc>
         <lastmod>2023-01-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.65</priority>
     </url>
     <url>
-        <loc>https://bane1110.github.io/LevixonTeach/feature.html</loc>
+        <loc>https://bane1110.github.io/gymnast-gym/feature.html</loc>
         <lastmod>2023-01-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://bane1110.github.io/LevixonTeach/contact.html</loc>
+        <loc>https://bane1110.github.io/gymnast-gym/contact.html</loc>
         <lastmod>2023-01-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.55</priority>
     </url>
     <url>
-        <loc>https://bane1110.github.io/LevixonTeach/author.html</loc>
+        <loc>https://bane1110.github.io/gymnast-gym/author.html</loc>
         <lastmod>2023-01-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
