@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Gymnast - Gym | Classes</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="Join program, gym, Gymnast, powerlifting, bodybuilding, cardio, crossfit, calsses, schedule, BMI"/>
+    <meta name="description" content="Join our cardio, crossfit, powerlifting or bodybuilding program. You can see our classes schedule in a table. You can also calculate your BMI."/>
+    <meta name="author" content="Branko Pualić-Radujko"/>
+
+    <!-- Favicon -->
+    <link href="img/fav.png" rel="shortcut icon" type="image/png"/>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 display-4 font-weight-bold text-uppercase text-white">Gymnast</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <!-- Nav bar done through javaScript -->
+                <nav class="navM ml-auto p-4 bg-secondary">
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5 minH400">
+            <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Gym Classes</h4>
+            <div class="d-inline-flex">
+                <p class="m-0 text-white"><a class="text-white" href="index.html">Home</a></p>
+                <p class="m-0 text-white px-2">/</p>
+                <p class="m-0 text-white">Gym Classes</p>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Gym Class Start -->
+    <div class="container gym-class mb-5" style="margin-top: 90px;">
+        <div class="row px-3  joinNow">
+            <!-- Content is done through javaScript -->
+        </div>
+    </div>
+    <!-- Gym Class End -->
+
+
+    <!-- Class Timetable Start -->
+    <div class="container gym-feature py-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-primary font-weight-bold">Class Timetable</h4>
+            <h4 class="display-4 font-weight-bold">Working Hours and Class Time</h4>
+        </div>
+        <div class="tab-class">
+            <ul class="nav nav-pills justify-content-center mb-4 tableUl">
+                <!-- Classes list is done through javaScript -->
+            </ul>
+            <div class="tab-content">
+                <!-- Tables for each classes are done through javaScript -->
+            </div>
+        </div>
+    </div>
+    <!-- Class Timetable End -->
+    
+
+    <!-- BMI Calculation Start -->
+    <div class="container-fluid position-relative bmi mt-5">
+        <div class="container">
+            <div class="row px-3 align-items-center">
+                <div class="col-md-6">
+                    <div class="pr-md-3 d-none d-md-block">
+                        <h4 class="text-primary">Body Mass Index </h4>
+                        <h4 class="display-4 text-white font-weight-bold mb-4">Whate is BMI?</h4>
+                        <p class="m-0 text-white">Body mass index (BMI) is a measure of body fat based on an individual's weight and height. It is used to determine if a person is underweight, normal weight, overweight, or obese. A BMI of 18.5 to 24.9 is considered to be in the normal range, while a BMI of 25 or above is considered to be overweight or obese.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 bg-secondary py-5">
+                    <div class="py-5 px-3">
+                        <h1 class="mb-4 text-white">Calculate your BMI</h1>
+                        <form id="bmi">
+                            <!-- Form is done through javaScript -->
+                        </form>
+                        <span id="bmiValidation"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BMI Calculation End -->
+
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white">
+        <div class="row pt-5 footerRow">
+            <!-- Footer links, contact and working hours content are all done through javaScript -->
+        </div>
+        <div class="container border-top border-dark pt-5">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-white font-weight-bold" href="index.html">Gymnast</a>. All Rights Reserved. Designed by
+                <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            </p>
+            <p class="text-center mt-3">
+                <a href="dokumentacija.pdf" class="pr-3">Dokumentacija</a>
+                <a href="xml/sitemap.xml" class="pl-3">Sitemap</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- Modals for Join now Clasess-->
+    <div id="modal1" class="pop-up">
+        <div class="overlay"></div>
+        <div class="modal-content col-sm-7 col-md-6 col-lg-6">
+            <div class="close-btn">&times;</div>
+            <h4>Subscription</h4>
+            <form action="#" method="post" name="cardioFitnessSubFirst" id="cardioFitnessFirst">
+                <input type="text" placeholder="Your full name" class="form-control nameIn"/>
+                <span class="fullName"></span>
+                <input type="email" placeholder="Your email address" class="form-control mailIn"/>
+                <span class="mailSub"></span>
+                <input type="tel" placeholder="Your telephone number" class="form-control telIn"/>
+                <span class="telSub"></span>
+                <div class="radioBtns">
+                    <label for="cardioRadio">Cardio</label>
+                    <input type="radio" name="fitness" id="cardioRadio" value="Cardio"/>
+                    <label for="crossfitRadio">Crossfit</label>
+                    <input type="radio" name="fitness" id="crossfitRadio" value="Crossfit"/>
+                    <span class="radioBtnRe"></span>
+                </div>
+                <input type="submit" value="Join" class="btn btn-outline-primary formSubJoin"/>
+                <span class="btnSubJoin"></span>
+            </form>
+        </div>
+    </div>
+    <div id="modal2" class="pop-up">
+        <div class="overlay"></div>
+        <div class="modal-content col-sm-7 col-md-6 col-lg-6">
+            <div class="close-btn">&times;</div>
+            <h4>Subscription</h4>
+            <form action="#" method="post" name="cardioFitnessSubSecond" id="cardioFitnessSecond">
+                <input type="text" placeholder="Your full name" class="form-control nameIn"/>
+                <span class="fullName"></span>
+                <input type="email" placeholder="Your email address" class="form-control mailIn"/>
+                <span class="mailSub"></span>
+                <input type="tel" placeholder="Your telephone number" class="form-control telIn"/>
+                <span class="telSub"></span>
+                <div class="radioBtns">
+                    <label for="bodybRadio">Bodybuilding</label>
+                    <input type="radio" name="fitness" id="bodybRadio" value="Bodybuilding"/>
+                    <label for="powerliftingRadio">Powerlifting</label>
+                    <input type="radio" name="fitness" id="powerliftingRadio" value="Powerlifting"/>
+                    <span class="radioBtnRe"></span>
+                </div>
+                <input type="submit" value="Join" class="btn btn-outline-primary formSubJoin"/>
+                <span class="btnSubJoin"></span>
+            </form>
+        </div>
+    </div>
+    <!-- Modals End -->
+    
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
